@@ -2,81 +2,224 @@
 <html lang="fr">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Swagg Style</title>
+    <meta name="description" content="Swagg Style - Vêtements tendance pour révéler ton style.">
+
+    <title>Swagg Style | Ton style. Ton identité.</title>
 
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
-    <header>
+    <header class="header">
 
-        <h1>SWAGG STYLE 👕</h1>
+        <div class="logo">
+            SWAGG<span>STYLE</span>
+        </div>
 
         <nav>
-            <a href="#">Accueil</a>
-            <a href="#">Vêtements</a>
-            <a href="#">Contact</a>
+            <a href="#accueil">Accueil</a>
+            <a href="#produits">Collection</a>
+            <a href="#contact">Contact</a>
         </nav>
 
     </header>
 
 
-    <section class="hero">
+    <main>
 
-        <h2>Ton style. Ton identité.</h2>
+        <!-- HERO -->
+
+        <section class="hero" id="accueil">
+
+            <div class="hero-content">
+
+                <p class="petit-titre">NOUVELLE COLLECTION</p>
+
+                <h1>
+                    TON STYLE.<br>
+                    <span>TON IDENTITÉ.</span>
+                </h1>
+
+                <p class="description">
+                    Découvre des vêtements tendance pensés pour
+                    ceux qui veulent se démarquer.
+                </p>
+
+                <a href="#produits" class="bouton">
+                    Découvrir la collection →
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- PRODUITS -->
+
+        <section class="produits" id="produits">
+
+            <div class="section-titre">
+                <p>SWAGG STYLE</p>
+                <h2>Notre collection</h2>
+                <div class="ligne"></div>
+            </div>
+
+
+            <div class="grille-produits">
+
+                <!-- PRODUIT 1 -->
+
+                <article class="carte">
+
+                    <div class="image-produit">
+                        <div class="badge">TENDANCE</div>
+                    </div>
+
+                    <div class="info-produit">
+
+                        <p class="categorie">T-SHIRT</p>
+
+                        <h3>T-shirt Swagg</h3>
+
+                        <p class="prix">
+                            10 000 FCFA
+                        </p>
+
+                        <a href="#contact" class="bouton bouton-produit">
+                            Commander
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUIT 2 -->
+
+                <article class="carte">
+
+                    <div class="image-produit">
+                        <img
+                            src="images/a0e4833ce6c9d9425e2fab7e2c77059d.jpg"
+                            alt="Hoodie Swagg"
+                        >
+
+                        <div class="badge">BEST-SELLER</div>
+                    </div>
+
+                    <div class="info-produit">
+
+                        <p class="categorie">HOODIE</p>
+
+                        <h3>Hoodie Swagg</h3>
+
+                        <p class="prix">
+                            20 000 FCFA
+                        </p>
+
+                        <a href="#contact" class="bouton bouton-produit">
+                            Commander
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- POURQUOI SWAGG STYLE -->
+
+        <section class="avantages">
+
+            <div class="section-titre">
+                <p>POURQUOI NOUS ?</p>
+                <h2>Le style avant tout.</h2>
+                <div class="ligne"></div>
+            </div>
+
+            <div class="avantages-grid">
+
+                <div class="avantage">
+                    <div class="icone">✦</div>
+                    <h3>Style</h3>
+                    <p>
+                        Des pièces pensées pour créer ton propre style.
+                    </p>
+                </div>
+
+                <div class="avantage">
+                    <div class="icone">✓</div>
+                    <h3>Qualité</h3>
+                    <p>
+                        Nous recherchons des vêtements confortables
+                        et tendance.
+                    </p>
+                </div>
+
+                <div class="avantage">
+                    <div class="icone">⚡</div>
+                    <h3>Simple</h3>
+                    <p>
+                        Découvre, choisis et commande facilement.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+
+        <section class="contact" id="contact">
+
+            <div>
+
+                <p class="petit-titre">UNE QUESTION ?</p>
+
+                <h2>
+                    Prêt à avoir<br>
+                    <span>ton Swagg ?</span>
+                </h2>
+
+                <p>
+                    Contacte-nous pour connaître les tailles disponibles
+                    et passer ta commande.
+                </p>
+
+                <a href="mailto:contact@swaggstyle.com" class="bouton">
+                    Nous contacter
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="logo">
+            SWAGG<span>STYLE</span>
+        </div>
 
         <p>
-            Découvre notre collection de vêtements tendance.
+            Ton style. Ton identité.
         </p>
 
-        <a href="#produits" class="bouton">
-            Voir les vêtements
-        </a>
+        <p class="copyright">
+            © 2026 Swagg Style — Tous droits réservés.
+        </p>
 
-    </section>
-
-
-    <section class="produits" id="produits">
-
-        <h2>Nos produits</h2>
-
-        <div class="carte">
-
-            <h3>T-shirt Swagg</h3>
-
-            <p class="prix">
-                10 000 FCFA
-            </p>
-
-            <a href="#" class="bouton">
-                Commander
-           </a>
-
-        </div>
-
-
-        <div class="carte">
-<img src="a0e4833ce6c9d9425e2fab7e2c77059d.jpg" alt="Hoodie Swagg">
-            <h3>Hoodie Swagg</h3>
-
-            <p class="prix">
-                20 000 FCFA
-            </p>
-
-            <a href="#" class="bouton">
-                Commander
-            </a>
-
-        </div>
-
-    </section>
+    </footer>
 
 </body>
 
